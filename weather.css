@@ -1,0 +1,51 @@
+.main {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+  }
+  body{
+    background:rgba(50,168,197,0.8);
+  }
+  .weather-panel {
+    background-image: url("pngegg.png");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 25px 25px 40px 0px rgba(0,0,0,0.33);
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  } 
+    ul.forecast > li {
+      border-top: 1px solid #fff;
+    }
+    .temperature {
+      & > span {
+          font-size: 1.3em;
+      }
+    }
+    span{
+        font-size: 0.6em;
+    }
+    figcaption{
+        font-size: 0.5em;
+        color:wheat;
+    }
+    figcaption p{
+        font-size: 0.3em;
+    }
+  cite{
+    border: 1px solid wheat;
+    border-width: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    color:white;
+  }
+  input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 80px 0 0 100px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
