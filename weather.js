@@ -42,8 +42,8 @@ const showWeather=(data)=>{
          <div class="col-xs-6 text-center">
            <div class="h1 temperature">
              <span>${data.main.temp}°C</span>
-             <figcaption>Wind:</figcaption><h4>${data.main.feels_like}°C</h4>
-             <figcaption>Wind</figcaption><h4>${data.wind['speed']} km/h
+             <figcaption>Feels Alike:</figcaption><h4>${data.main.feels_like}°C</h4>
+             <figcaption>Wind:</figcaption><h4>${data.wind['speed']} km/h
              </h4>
              <figcaption>Degree</figcaption><h4>${data.wind.deg}°</h4>
            </div>`
